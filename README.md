@@ -1,5 +1,5 @@
-# YJ-vue
-YJ-vue是一款基于 Vue.js 2.0 的前端 UI 组件库，主要用于快速开发 PC 网站中后台产品
+# SD-vue
+SD-vue(Shared development)是一款基于 Vue.js 2.0 的前端 UI 组件库，主要用于快速开发 PC 网站中后台产品
 
 ## 特性
 * 基于Vue开发的UI组件
