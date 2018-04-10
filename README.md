@@ -32,8 +32,8 @@ npm test
 ```
 ## 使用
 ```js
-import SelfUI from 'self-component' // 引入组件库
-import 'self-component/packages/theme-default/lib/index.css' // 引入样式库
+import vueUI from 'vue-UI' // 引入组件库
+import 'vue-UI/packages/theme-default/lib/index.css' // 引入样式库
 
 Vue.use(SelfUI)
 
