@@ -1,9 +1,9 @@
-# SD-vue
-SD-vue(Shared development)是一款基于 Vue.js 2.0 的前端 UI 组件库，主要用于快速开发 PC 网站中后台产品
+# vue-UI
+vue-UI是一款基于 Vue.js 2.0 的前端 UI 组件库，主要用于快速开发 PC 网站中后台产品
 
 ## 特性
 * 基于Vue开发的UI组件
-* 基于iview框架进行封装
+
 
 > A Vue.js project
 ## Build Setup
