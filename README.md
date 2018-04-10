@@ -35,7 +35,7 @@ npm test
 import vueUI from 'vue-UI' // 引入组件库
 import 'vue-UI/packages/theme-default/lib/index.css' // 引入样式库
 
-Vue.use(SelfUI)
+Vue.use(vueUI)
 
 ```
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
