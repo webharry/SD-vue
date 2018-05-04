@@ -80,23 +80,42 @@
         </a>
       </li>
     </ul>
+    <div @click="isShow=true">点击弹出alert</div>
+    <ui-alert v-show="isShow" @ui-alert-confirm="alertConfirm(params)" @ui-alert-cancel="alertCancel()"></ui-alert>
   </div>
 </template>
 
 <script>
+import { Alert } from "./../UI";
 export default {
-  name: 'HelloWorld',
-  data () {
+  name: "HelloWorld",
+  components: {
+    "ui-alert": Alert
+  },
+  data() {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: "Welcome to Your Vue.js App",
+      isShow: true,
+      params: {
+        id: "something"
+      }
+    };
+  },
+  methods: {
+    alertConfirm(params) {
+      // console.log(params);
+    },
+    alertCancel() {
+      this.isShow = false;
     }
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
+h1,
+h2 {
   font-weight: normal;
 }
 ul {
